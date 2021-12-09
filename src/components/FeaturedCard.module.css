@@ -1,0 +1,9 @@
+.card {
+  composes: flex-center from "./Globals.module.css";
+  flex-grow: 1;
+  min-width: 200px;
+  min-height: 150px;
+  margin: 36px;
+  border: 1px solid #939AA9;
+  background: var(--background-color);
+}

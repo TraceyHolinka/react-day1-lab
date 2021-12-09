@@ -1,9 +1,9 @@
 import styles from './FeaturedCard.module.css'
 
-function FeatureCard({featured}) {
+function FeatureCard({item}) {
   return (
     <div className={styles.card}>
-      {featured['text']}
+      {item['text']}
     </div>
   )
 }

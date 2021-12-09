@@ -1,13 +1,13 @@
 import FeatureCard from "./FeatureCard";
 import styles from "./SecondaryFeatures.module.css";
 
-function SecondaryFeatures({item}) {
+function SecondaryFeatures({items}) {
+  console.log(items)
   return (
       <div className={styles.container}>
-        <FeatureCard featured={item} />
-        <FeatureCard featured={item} />
-        <FeatureCard featured={item} />
-        <FeatureCard featured={item} />
+        {items.map((item, index) => (
+          <FeatureCard key={index} item={item} />
+        ))}
     </div>
   )
 }

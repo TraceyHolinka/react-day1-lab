@@ -1,6 +1,6 @@
 .card {
   composes: flex-center from "./Globals.module.css";
-  flex-grow: 1;
+  flex: 1;
   min-width: 200px;
   min-height: 150px;
   margin: 36px;

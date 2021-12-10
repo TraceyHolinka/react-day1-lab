@@ -1,7 +1,6 @@
 import FeatureCard from "./FeatureCard"
 import styles from './MainFeature.module.css'
 
-
 function MainFeature({item}) {
   return (
       <div className={styles.container}>
